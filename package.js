@@ -1,9 +1,12 @@
 Package.describe({
-  summary: "A wrapper around the blueimp-tmpl package for meteor."
+  summary: "Meteor wrapper for blueimp-tmpl Javascript templating engine.",
+  version: "2.5.4", // = Javascript-Templates version
+  git: "https://github.com/nxio/meteor-blueimp-tmpl.git"
 });
 
-Package.on_use(function (api) {
-  api.use(["jquery"], "client");
-
-  api.add_files(["lib/blueimp-tmpl/js/tmpl.js"], "client");
+Package.onUse(function(api) {
+  api.versionsFrom('METEOR@0.9.3.1');
+  api.use(['jquery'], 'client');
+  api.addFiles(['tmpl.js'], 'client');
 });
+

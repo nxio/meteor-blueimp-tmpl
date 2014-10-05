@@ -1,5 +1,5 @@
-# blueimp-tmpl smart package
+# blueimp-tmpl: Javascript-Templates
 
-Smart package wrapping [blueimp-tmpl](https://github.com/blueimp/JavaScript-Templates).  See the repository there for more details.
+**Version: 2.5.4**
 
-Created to use [blueimp-file-upload](https://github.com/blueimp/jQuery-File-Upload), a jQuery plugin.
+This package is a wrapper around the blueimp-tmpl Javascript templating engine (see [https://github.com/blueimp/JavaScript-Templates](https://github.com/blueimp/JavaScript-Templates)). blueimp-tmpl is a lightweight (< 1KB minimified) Javascript templating engine with zero dependencies.
